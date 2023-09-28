@@ -1,0 +1,50 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="488" height="274" border="1" class="table table-responsive">
+    <tr>
+      <td style="color: black">TEACHER NAME</td>
+      <td><label for="select"></label>
+        <select style="color: black" name="select" id="select" required>
+            {% for i in data %}
+                <option value="{{ i.TEACHER_ID }}">{{ i.TEACHER_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">COURSE NAME</td>
+      <td><label for="select2"></label>
+        <select style="color: black" name="select2" id="select2" required>
+            {% for i in data2 %}
+                <option value="{{ i.COURSE_ID }}">{{ i.COURSE_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">SEM</td>
+      <td><label for="select3"></label>
+        <select style="color: black" name="select3" id="select3" required>
+          <option>SEMESTER 1</option>
+          <option>SEMESTER 2</option>
+          <option>SEMESTER 3</option>
+          <option>SEMESTER 4</option>
+          <option>SEMESTER 5</option>
+          <option>SEMESTER 6</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black" colspan="2" align="center"><input type="submit" name="SUBMIT" id="SUBMIT" value="ADD" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,33 @@
+{% extends 'teacherindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="821" height="204" border="1" class="table table-responsive">
+    <tr>
+      <th width="37" scope="row" style="color: black">#</th>
+      <td width="170"><div align="center" style="color: black">STUDENT NAME</div></td>
+      <td width="145"><div align="center" style="color: black">COURSE</div></td>
+      <td width="143" style="color: black">REGISTER NO</td>
+    </tr>
+     {% for i in data %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ i.STUDENT_NAME }}</td>
+      <td>{{ i.COURSE_NAME }}</td>
+      <td>{{ i.REGISTER_NO }}</td>
+      <td width="143"><div align="center"><a href="/ADD_MARK/{{ i.STUDENT_ID }}/{{ i.COURSE_ID }}">ADD MARK</a></div></td>
+      <td width="143"><div align="center"><a href="/VIEW_MARK/{{ i.STUDENT_ID }}/{{ i.COURSE_ID }}">VIEW MARK</a></div></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

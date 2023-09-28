@@ -1,0 +1,48 @@
+{% extends 'teacherindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" >
+  <table width="629" height="273" border="1" class="table table-responsive">
+    <tr>
+      <th scope="row" style="color: black">SUBJECT</th>
+      <td colspan="2"><label for="select"></label>
+        <select style="color: black" name="select" id="select">
+            {% for i in data %}
+                <option value="{{ i.SUBJECT_ID }}">{{ i.SUBJECT_NAME }}</option>
+        {% endfor %}
+      </select></td>
+    </tr>
+  <tr>
+      <th colspan="2" scope="row" style="color: black">DATE</th>
+      <th colspan="2" scope="row"><label style="color: black" for="textfield"></label>
+      <input type="date" name="textfield" id="textfield" /></th>
+    </tr>
+    <tr>
+      <th colspan="3" scope="row"><input style="color: black" type="submit" name="button" id="button" value="SEARCH" /></th>
+    </tr>
+    <tr>
+        <th scope="row" style="color: black">#</th>
+      <th scope="row" style="color: black">STUDENT NAME</th>
+      <td><div align="center" style="color: black">DATE</div></td>
+      <td><div align="center" style="color: black">ATTENDENCE</div></td>
+    </tr>
+      {% for i in data2 %}
+    <tr>
+        <th>{{ loop.index }}</th>
+      <th scope="row">{{ i.STUDENT_NAME }}</th>
+      <td width="116">{{ i.DATE }}</td>
+      <td width="215">{{ i.ATTENDENCE }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

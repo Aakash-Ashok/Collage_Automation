@@ -1,0 +1,91 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" width="658" height="285" border="1" class="table table-responsive">
+    <tr>
+      <td style="color: black">DEPARTMENT</td>
+      <td><label for="select"></label>
+        <select style="color: black" name="select" id="select">
+            {% for i in data %}
+                <option value="{{ i.DEPARTMENT_ID }}" {% if i.DEPARTMENT_ID == data4.DEPARTMENT_ID %} selected {% endif %}>{{ i.DEPARTMENT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">COURSE</td>
+      <td><select style="color: black" name="select2" id="select2">
+          {% for i in data2 %}
+                <option value="{{ i.COURSE_ID }}"{% if i.COURSE_ID == data4.COURSE_ID %} selected {% endif %}>{{ i.COURSE_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+   <tr>
+      <td style="color: black">SEM</td>
+      <td><select style="color: black" name="select3" id="select3">
+        <option {% if 'SEMESTER 1' == data4.SEMESTER %} selected {% endif %}>SEMESTER 1</option>
+        <option {% if 'SEMESTER 2' == data4.SEMESTER %} selected {% endif %}>SEMESTER 2</option>
+        <option {% if 'SEMESTER 3' == data4.SEMESTER %} selected {% endif %}>SEMESTER 3</option>
+        <option {% if 'SEMESTER 4' == data4.SEMESTER %} selected {% endif %}>SEMESTER 4</option>
+        <option {% if 'SEMESTER 5' == data4.SEMESTER %} selected {% endif %}>SEMESTER 5</option>
+        <option {% if 'SEMESTER 6' == data4.SEMESTER %} selected {% endif %}>SEMESTER 6</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black" colspan="2"><div align="center">TIME TABLE</div></td>
+    </tr>
+    <tr>
+      <td style="color: black">SUBJECT</td>
+      <td><select style="color: black" name="select4" id="select4">
+          {% for i in data3 %}
+                <option value="{{ i.SUBJECT_ID }}">{{ i.SUBJECT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">SUBJECT</td>
+      <td><select style="color: black" name="select5" id="select5">
+          {% for i in data3 %}
+                <option value="{{ i.SUBJECT_ID }}" >{{ i.SUBJECT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">SUBJECT</td>
+      <td><select style="color: black" name="select6" id="select6">
+          {% for i in data3 %}
+                <option value="{{ i.SUBJECT_ID }}" >{{ i.SUBJECT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">SUBJECT</td>
+      <td><select style="color: black" name="select7" id="select7">
+          {% for i in data3 %}
+                <option value="{{ i.SUBJECT_ID }}">{{ i.SUBJECT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">SUBJECT</td>
+      <td><select style="color: black" name="select8" id="select8">
+          {% for i in data3 %}
+                <option value="{{ i.SUBJECT_ID }}">{{ i.SUBJECT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black" colspan="2" align="center"><input type="submit" name="button" id="button" value="UPDATE" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

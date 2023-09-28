@@ -1,0 +1,39 @@
+{% extends 'teacherindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+<table width="359" height="159" border="1" class="table table-responsive">
+    <tr>
+      <th scope="row" style="color: black">DEPARTMENT</th>
+      <td><label for="select"></label>
+        <select style="color: black" name="select" id="select">
+            {% for i in data %}
+                <option value="{{ i.DEPARTMENT_ID }}">{{ i.DEPARTMENT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">LEAVE DATE</th>
+      <td><label for="textfield"></label>
+      <input style="color: black" type="date" name="textfield1" id="textfield1" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">LEAVE REASON</th>
+      <td><label for="textfield"></label>
+      <input style="color: black" type="text" name="textfield" id="textfield" required/></td>
+    </tr>
+    <tr>
+      <th style="color: black" colspan="2" scope="row"><input type="submit" name="button" id="button" value="SEND" /></th>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

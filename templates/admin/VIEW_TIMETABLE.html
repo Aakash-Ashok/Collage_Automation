@@ -1,0 +1,73 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" width="1024" height="406" border="1" bgcolor="#dcdcdc" class="table table-responsive">
+    <tr>
+      <th style="color: black" colspan="4" scope="row">DEPARTMENT</th>
+      <td style="color: black" colspan="4"><label for="select"></label>
+        <select style="color: black" name="select" id="select">
+             {% for i in data %}
+                <option value="{{ i.DEPARTMENT_ID }}">{{ i.DEPARTMENT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <th style="color: black" colspan="4" scope="row">COURSE</th>
+      <td style="color: black" colspan="4"><label for="select2"></label>
+        <select style="color: black" name="select2" id="select2">
+            {% for i in data2 %}
+                <option value="{{ i.COURSE_ID }}">{{ i.COURSE_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <th style="color: black" colspan="4" scope="row">SEMESTER</th>
+      <td colspan="4"><label for="select3"></label>
+        <select style="color: black" name="select3" id="select3">
+          <option>SEMESTER 1</option>
+          <option>SEMESTER 2</option>
+          <option>SEMESTER 3</option>
+          <option>SEMESTER 4</option>
+          <option>SEMESTER 5</option>
+          <option>SEMESTER 6</option>
+      </select></td>
+    </tr>
+    <tr>
+      <th style="color: black" colspan="8" scope="row"><input type="submit" name="submit" id="submit" value="SEARCH" /></th>
+    </tr>
+    <tr>
+      <th style="color: black" scope="row">#</th>
+      <td style="color: black">SUBJECT 1</td>
+      <td style="color: black">SUBJECT 2</td>
+      <td style="color: black">SUBJECT 3</td>
+      <td style="color: black">SUBJECT 4</td>
+      <td style="color: black">SUBJECT 5</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+   {% for i in data3 %}
+    <tr>
+      <th style="color: black" scope="row">{{ loop.index }}</th>
+      <td style="color: black">{{ i.SUBJECT1_NAME }}</td>
+      <td style="color: black">{{ i.SUBJECT2_NAME }}</td>
+      <td style="color: black">{{ i.SUBJECT3_NAME }}</td>
+      <td style="color: black">{{ i.SUBJECT4_NAME }}</td>
+      <td style="color: black">{{ i.SUBJECT5_NAME }}</td>
+      <td style="color: blue"><div align="center"><a href="UPDATE_TIMETABLE/{{ i.TIMETABLE_ID }}">UPDATE</a></div></td>
+      <td style="color: blue"><div align="center"><a href="DELETE_TIMETABLE/{{ i.TIMETABLE_ID }}"onclick="return confirm('ARE YOU SURE TO DELETE')">DELETE</a></div></td>
+    </tr>
+  {% endfor %}
+  </table>
+</form>
+</body>
+</html>
+
+{% endblock %}

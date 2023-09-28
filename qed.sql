@@ -1,0 +1,1 @@
+select * from mark  where mark.SUBJECT_ID=25 and mark.STUDENT_ID=42

@@ -1,0 +1,39 @@
+{% extends 'teacherindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="570" height="204" border="1" class="table table-responsive">
+    <tr>
+      <td style="color: black">#</td>
+       <td style="color: black">LEAVE ID</td>
+      <td style="color: black">LEAVE REASON</td>
+      <td style="color: black">STUDENT NAME</td>
+      <td style="color: black">REPLY</td>
+      <td style="color: black">REPLY DATE</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ i.LEAVE_ID }}</td>
+      <td>{{ i.LEAVE_REASON }}</td>
+      <td>{{ i.STUDENT_NAME }}</td>
+        {% if i.REPLY=='pending' %}
+        <td colspan="2"><a style="color: black" href="/SEND_STUDENT_LEAVE_REPLY/{{ i.LEAVE_ID }}">REPLY</a></td>
+        {% else %}
+        <td>{{ i.REPLY }}</td>
+        <td>{{ i.REPLY_DATE }}</td>
+        {% endif %}
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,88 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+<table align="center" width="200" border="1" class="table table-responsive">
+  <tr>
+    <td style="color: black">DEPARTMENT</td>
+    <td><select style="color: black" name="select" id="select">
+        {% for i in data2 %}
+                <option value="{{ i.DEPARTMENT_ID }}">{{ i.DEPARTMENT_NAME }}</option>
+        {% endfor %}
+      </select></td>
+  </tr>
+  <tr>
+    <td style="color: black">COURSE</td>
+    <td><select style="color: black" name="select2" id="select2">
+        {% for i in data3 %}
+                <option value="{{ i.COURSE_ID }}">{{ i.COURSE_NAME }}</option>
+        {% endfor %}
+      </select></td>
+  </tr>
+  <tr>
+    <td style="color: black">SEM</td>
+    <td><label for="select3"></label>
+      <select style="color: black" name="select3" id="select3">
+        <option>SEMESTER 1</option>
+        <option>SEMESTER 2</option>
+        <option>SEMESTER 3</option>
+        <option>SEMESTER 4</option>
+        <option>SEMESTER 5</option>
+        <option>SEMESTER 6</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><input style="color: black" type="submit" name="button" id="button" value="SEARCH" /></td>
+  </tr>
+</table>
+
+  <table align="center" width="361" height="168" border="1">
+    <tr>
+      <td style="color: black">#</td>
+     
+
+      <td style="color: black">STUDENT_NAME</td>
+      <td style="color: black">DEPARTMENT</td>
+      <td style="color: black">COURSE</td>
+      <td style="color: black">REGISTER_NO</td>
+      <td style="color: black">DOB</td>
+        <td style="color: black">SEM </td>
+        <td style="color: black">BLOOD GROUP</td>
+        <td style="color: black">PLACE </td>
+        <td style="color: black">POST </td>
+        <td style="color: black">PIN</td>
+        <td style="color: black">IMAGE </td>
+
+    </tr>
+      {% for i in data %}
+    <tr>
+      <td style="color: black">{{ loop.index }}</td>
+
+      <td style="color: black">{{ i.STUDENT_NAME }}</td>
+        <td style="color: black">{{ i.DEPARTMENT_NAME }}</td>
+        <td style="color: black">{{ i.COURSE_NAME}}</td>
+        <td style="color: black">{{ i.REGISTER_NO }}</td>
+        <td style="color: black">{{ i.DOB }}</td>
+        <td style="color: black">{{ i.SEM }}</td>
+        <td style="color: black">{{ i.BLOOD_GROUP }}</td>
+        <td style="color: black">{{ i.PLACE }}</td>
+        <td style="color: black">{{ i.POST }}</td>
+        <td style="color: black">{{ i.PIN}}</td>
+        <td><img width="100" height="100" src="{{ i.IMAGE }}"></td>
+         <td style="color: blue" ><a href="UPDATE_STUDENT/{{ i.STUDENT_ID }}">UPDATE</a></td>
+      <td style="color: blue" >&nbsp;<a href="DELETE_STUDENT/{{ i.STUDENT_ID }}"onclick="return confirm('ARE YOU SURE TO DELETE')">DELETE</a></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

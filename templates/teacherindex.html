@@ -1,0 +1,249 @@
+<!doctype html>
+<!--[if IE 9]>
+<html class="no-js ie9 fixed-layout" lang="en">
+	<![endif]-->
+<!--[if gt IE 9]>
+	<!-->
+<html class="no-js " lang="en">
+  <!--
+		<![endif]-->
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Meta -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"> {#
+						<!-- Site Meta -->#} {#
+						<title>PCASC</title>#} {#
+						<meta name="keywords" content="">#} {#
+							<meta name="description" content="">#} {#
+								<meta name="author" content="">#} {#
+									<!-- Site Icons -->#} {#
+									<link rel="shortcut icon" href="/static/assets/images/favicon.ico" type="image/x-icon" />#} {#
+									<link rel="apple-touch-icon" href="/static/assets/images/apple-touch-icon.png">#}
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet">
+    <!-- Custom & Default Styles -->
+    <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/assets/css/carousel.css">
+    <link rel="stylesheet" href="/static/assets/css/animate.css">
+    <link rel="stylesheet" href="/static/assets/css/style.css">
+    <!--[if lt IE 9]>
+																	<script src="js/vendor/html5shiv.min.js"></script>
+																	<script src="js/vendor/respond.min.js"></script>
+																	<![endif]-->
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div id="preloader">
+      <img class="preloader" src="/static/assets/images/loader.gif" alt="">
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
+    <div id="wrapper">
+      <!-- BEGIN # MODAL LOGIN -->
+      <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <!-- Begin # DIV Form -->
+            <div id="div-forms">
+              <form id="login-form">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span class="flaticon-add" aria-hidden="true"></span>
+                </button>
+                <div class="modal-body">
+                  <input class="form-control" type="text" placeholder="What you are looking for?" required>
+                </div>
+              </form>
+              <!-- End # Login Form -->
+            </div>
+            <!-- End # DIV Form -->
+          </div>
+        </div>
+      </div>
+      <!-- END # MODAL LOGIN -->
+      <header class="header">
+        <div class="container">
+          <nav class="navbar navbar-default yamm">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button> {#
+																								<div class="logo-normal">#} {#
+																									<a class="navbar-brand" href="index.html">
+																										<img src="/static/assets/images/logo.png" alt="">
+																										</a>#} {#
+																									</div>#}
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown yamm-fw yamm-half">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle active">PROFILE <b class="fa fa-angle-down"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="yamm-content clearfix">
+                        <div class="row-fluid">
+                          <div class="col-md-6 col-sm-6">
+                            <ul>
+                              <li>
+                                <a href="/ADD_PROFILE">ADD PROFILE</a>
+                              </li>
+                              <li>
+                                <a href="/VIEW_PROFILE">VIEW PROFILE</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown yamm-fw yamm-half">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle active">STUDENT <b class="fa fa-angle-down"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="yamm-content clearfix">
+                        <div class="row-fluid">
+                          <div class="col-md-6 col-sm-6">
+                            <ul>
+                              <li>
+                                <a href="/VIEW_ATTENDANCE">VIEW ATTENDANCE</a>
+                              </li>
+                              <li>
+                                <a href="/VIEW_STUDENT_LIST">VIEW STUDENT LIST</a>
+                              </li>
+                              <li>
+                                <a href="/APPROVE_STUDENT_PROFILE">VIEW APPROVE STUDENT PROFILE</a>
+                              </li>
+                              <li>
+                                <a href="/STUDENT_PROFILE">VIEW STUDENT PROFILE</a>
+                              </li>
+                              <li>
+                                <a href="/VIEW_STUDENT_LEAVE_REQUEST">STUDENT LEAVE REQUEST</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown yamm-fw yamm-half">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle active">NOTIFICATION <b class="fa fa-angle-down"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="yamm-content clearfix">
+                        <div class="row-fluid">
+                          <div class="col-md-6 col-sm-6">
+                            <ul>
+                              <li>
+                                <a href="/ADD_TEACHER_NOTIFICATION">ADD NOTIFICATION</a>
+                              </li>
+                              <li>
+                                <a href="/VIEW_TEACHER_NOTIFICATION">VIEW NOTIFICATION</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown yamm-fw yamm-half">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle active">ADMIN <b class="fa fa-angle-down"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="yamm-content clearfix">
+                        <div class="row-fluid">
+                          <div class="col-md-6 col-sm-6">
+                            <ul>
+                              <li>
+                                <a href="/VIEW_ADMIN_NOTIFICATION">VIEW ADMIN NOTIFICATION</a>
+                              </li>
+                              <li>
+                                <a href="/VIEW_ADMIN_EVENT">VIEW ADMIN EVENT</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown yamm-fw yamm-half">
+                  <a href="#" data-toggle="dropdown" class="dropdown-toggle active">MORE <b class="fa fa-angle-down"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <div class="yamm-content clearfix">
+                        <div class="row-fluid">
+                          <div class="col-md-6 col-sm-6">
+                            <ul>
+                              <li>
+                                <a href="/SEND_LEAVE_REQUEST"> SEND LEAVE REQUEST</a>
+                              </li>
+                              <li>
+                                <a href="/VIEW_LEAVE_REQUEST_REPLY"> VIEW LEAVE REQUEST REPLY</a>
+                              </li>
+                              <li>
+                                <a href="/VIEW_SUBJECTS">VIEW SUBJECTS</a>
+                              </li>
+                              <li>
+                                <a href="/logout">LOGOUT</a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- end navbar -->
+        </div>
+        <!-- end container -->
+      </header>
+      <section id="home" class="video-section js-height-full">
+        <div class="overlay"></div>
+        <div class="home-text-wrapper relative container">
+          <div class="home-message">
+            <h2 style="color: whitesmoke"> EAST WEST INSTITUTE OF TECHNOLOGY </h2>
+            <h4 STYLE="color: white">ABOUT US</h4>
+            <small>EAST WEST GROUP OF INSTITUTIONS, a well known and a prominent educational institutions crowns an absolute place among the top colleges in Bengaluru. The institution was founded by philanthropist and a social worker Shri. C M NAGARAJ in 1968, seizing the limelight as a vision for its reputation in the realm of technological education. Today, the institution has become the treasure house of knowledge to thousands of enthusiastic student community across the globe. EWGI advocates its unflinching recognition in all respects of academics and is celebrating 52th year of Academic Excellence, honing the life of every student with a code of conduct. EWGI fashions students from all nooks of humankind not as mere graduates but as true champs to view themselves as great ambassadors of our country. EWGI offers vivid programs such as Engineering, Architecture, Science & Commerce, Management, Pharmacy, Polytechnic, Nursing, etc. East West Institute of Technology established in 2001 with the prime motto to serve the best quality based technical education. The institute explores a beautiful equipped study environment located in a well-known green city of Bengaluru and has an extensive vicinity of 20 acres of land surrounded with congeal learning atmosphere.</small>
+            <div class="btn-wrapper"></div>
+            <!-- end row -->
+          </div>
+        </div>
+        <div class="slider-bottom">
+          <span>Explore <i class="fa fa-angle-down"></i>
+          </span>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="row"> {% block body %} {% endblock %} </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </section>
+      <!-- jQuery Files -->
+      <script src="/static/assets/js/jquery.min.js"></script>
+      <script src="/static/assets/js/bootstrap.min.js"></script>
+      <script src="/static/assets/js/carousel.js"></script>
+      <script src="/static/assets/js/animate.js"></script>
+      <script src="/static/assets/js/custom.js"></script>
+      <!-- VIDEO BG PLUGINS --> {#
+																					<script src="/static/assets/js/videobg.js"></script>#}
+  </body>
+</html>

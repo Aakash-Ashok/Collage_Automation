@@ -1,0 +1,1 @@
+select sum(SCORE) from mark where STUDENT_ID='33'

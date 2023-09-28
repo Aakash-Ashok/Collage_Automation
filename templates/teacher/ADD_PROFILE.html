@@ -1,0 +1,60 @@
+{% extends 'teacherindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="396" border="1" class="table table-responsive">
+    <tr>
+      <th scope="row" style="color: black">IMAGE</th>
+      <th scope="row"><label for="fileField"></label>
+      <input type="file" name="fileField" id="fileField" required/></th>
+    </tr>
+    <tr>
+      <th width="173" scope="row" style="color: black">DOB</th>
+      <td width="207"><label for="textfield"></label>
+      <input style="color: black" type="date" name="textfield" id="textfield" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">QUALIFICATION</th>
+      <td><label for="textfield2"></label>
+      <input style="color: black" type="text" name="textfield2" id="textfield2" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">PLACE</th>
+      <td><label for="textfield3"></label>
+      <input style="color: black" type="text" name="textfield3" id="textfield3" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">POST</th>
+      <td><label for="textfield4"></label>
+      <input style="color: black" type="text" name="textfield4" id="textfield4" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">PIN</th>
+      <td><label for="textfield5"></label>
+      <input style="color: black" type="text" name="textfield5" id="textfield5" pattern="[6][0-9]{5}"required/></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">CONTACT</th>
+      <td><label for="textfield6"></label>
+      <input style="color: black" type="text" name="textfield6" id="textfield6" pattern="[6789][0-9]{9}" required/></td>
+    </tr>
+    <tr>
+      <th scope="row" style="color: black">EMAIL</th>
+      <th scope="row"><label for="textfield7"></label>
+      <input style="color: black" type="email" name="textfield7" id="textfield7" required/></th>
+    </tr>
+    <tr>
+      <th style="color: black" colspan="2" scope="row"><input type="submit" name="button" id="button" value="ADD" /></th>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

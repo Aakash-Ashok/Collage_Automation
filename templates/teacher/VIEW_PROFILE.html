@@ -1,0 +1,57 @@
+{% extends 'teacherindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table class="table fa-table">
+    <tr>
+      <th colspan="2" scope="row">&nbsp;<img src="{{ data.IMAGE }}" width="100" height="100"/></th>
+    </tr>
+    <tr>
+      <th width="173" scope="row">TEACHER NAME</th>
+      <td width="207">&nbsp;{{ data.TEACHER_NAME }}</td>
+    </tr>
+    <tr>
+      <th scope="row">DOB</th>
+      <td>{{ data.DOB }}</td>
+    </tr>
+    <tr>
+      <th scope="row">QUALIFICATION</th>
+      <td>{{ data.QUALIFICATION }}</td>
+    </tr>
+    <tr>
+      <th scope="row">PLACE</th>
+      <td>&nbsp;{{ data.PLACE }}</td>
+    </tr>
+    <tr>
+      <th scope="row">PIN</th>
+      <td>&nbsp;{{ data.PIN }}</td>
+    </tr>
+    <tr>
+      <th scope="row">POST</th>
+      <td>&nbsp;{{ data.POST }}</td>
+    </tr>
+    <tr>
+      <th scope="row">DEPARTMENT</th>
+      <td>&nbsp;{{ data.DEPARTMENT_NAME }}</td>
+    </tr>
+    <tr>
+      <th scope="row">CONTACT</th>
+      <td>&nbsp;{{ data.CONTACT }}</td>
+    </tr>
+    <tr>
+      <th scope="row">EMAIL</th>
+      <td>&nbsp;{{ data.EMAIL }}</td>
+    </tr>
+      <th><a href="/UPDATE_PROFILE/{{ data.TEACHER_ID}}">UPDATE</a></th>
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

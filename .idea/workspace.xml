@@ -1,0 +1,1558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="714d28dd-8eaf-4b4b-9302-859ab4b0b639" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/COLLEGE_AUTOMATION$COLLEGE_AUTOMATION.coverage" NAME="COLLEGE AUTOMATION Coverage Results" MODIFIED="1691522232404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="COLLEGE AUTOMATION" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="COLLEGE AUTOMATION.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/COLLEGE AUTOMATION.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2112">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1177" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+                <marker date="1690095366777" expanded="true" signature="559:627" ph="select * fro... login" />
+                <marker date="1690095366777" expanded="true" signature="1502:1554" ph="insert into course... " />
+                <marker date="1690095366777" expanded="true" signature="1697:1721" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="1697:1750" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="1904:1987" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="1904:1988" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="1904:2013" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="2315:2407" ph="update cours... " />
+                <marker date="1690095366777" expanded="true" signature="2554:2578" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="2554:2607" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="2635:2681" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="2635:2706" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="2876:2918" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="3205:3248" ph="insert into department... " />
+                <marker date="1690095366777" expanded="true" signature="3609:3686" ph="update depar... " />
+                <marker date="1690095366777" expanded="true" signature="3838:3892" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="4060:4084" ph="SELECT * FRO... department" />
+                <marker date="1690095366777" expanded="true" signature="4060:4113" ph="SELECT * FRO... department" />
+                <marker date="1690095366777" expanded="true" signature="4285:4335" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="4888:4961" ph="insert into event... " />
+                <marker date="1690095366777" expanded="true" signature="5585:5752" ph="select * fro... event" />
+                <marker date="1690095366777" expanded="true" signature="6000:6151" ph="update event... " />
+                <marker date="1690095366777" expanded="true" signature="6317:6464" ph="update event... " />
+                <marker date="1690095366777" expanded="true" signature="6617:6763" ph="update event... " />
+                <marker date="1690095366777" expanded="true" signature="6918:6962" ph="select * fro... event" />
+                <marker date="1690095366777" expanded="true" signature="7115:7134" ph="select * fro... event" />
+                <marker date="1690095366777" expanded="true" signature="7115:7164" ph="select * fro... event" />
+                <marker date="1690095366777" expanded="true" signature="7320:7360" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="7737:7824" ph="insert into notification... " />
+                <marker date="1690095366777" expanded="true" signature="8255:8391" ph="update notif... " />
+                <marker date="1690095366777" expanded="true" signature="8544:8570" ph="select * fro... notification" />
+                <marker date="1690095366777" expanded="true" signature="8744:8770" ph="select * fro... notification" />
+                <marker date="1690095366777" expanded="true" signature="8744:8807" ph="select * fro... notification" />
+                <marker date="1690095366777" expanded="true" signature="8984:9038" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="10177:10253" ph="insert into login... " />
+                <marker date="1690095366777" expanded="true" signature="10282:10448" ph="insert into student... " />
+                <marker date="1690095366777" expanded="true" signature="10446:10448" ph="insert into teacher... " />
+                <marker date="1690095366777" expanded="true" signature="10840:10864" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="10840:10893" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="10917:10937" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="10917:10962" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="11431:11610" ph="update stude... " />
+                <marker date="1690095366777" expanded="true" signature="11755:11779" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="11755:11808" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="11832:11852" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="11832:11877" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="11904:11951" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="12250:12274" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="12250:12303" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="12331:12351" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="12331:12377" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="12404:12648" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="12404:12674" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="12817:12841" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="12817:12870" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="12896:12916" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="12896:12941" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="12969:13150" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="13335:13379" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="13742:13806" ph="insert into subject... " />
+                <marker date="1690095366777" expanded="true" signature="13948:13972" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="13948:14001" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="14025:14045" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="14025:14070" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="14413:14527" ph="update subje... " />
+                <marker date="1690095366777" expanded="true" signature="14673:14697" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="14673:14726" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="14750:14770" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="14750:14795" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="14824:14871" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="15046:15117" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="15046:15143" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="15305:15349" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="16355:16431" ph="insert into login... " />
+                <marker date="1690095366777" expanded="true" signature="16463:16558" ph="insert into teacher... " />
+                <marker date="1690095366777" expanded="true" signature="16955:16979" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="16955:17008" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="17350:17441" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="17350:17447" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="17350:17460" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="17350:17467" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="17613:17637" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="17613:17666" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="17693:17714" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="17693:17740" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="17693:17742" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="18002:18026" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="18002:18055" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="18081:18213" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="18081:18239" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="18368:18392" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="18368:18421" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="18584:18628" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="18996:19067" ph="insert into tutor... " />
+                <marker date="1690095366777" expanded="true" signature="19207:19228" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="19207:19254" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="19279:19299" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="19279:19324" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="19617:19675" ph="update tutor... " />
+                <marker date="1690095366777" expanded="true" signature="19821:19842" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="19821:19868" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="19892:19912" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="19892:19938" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="19965:19984" ph="select * fro... tutor" />
+                <marker date="1690095366777" expanded="true" signature="20154:20267" ph="select * fro... tutor" />
+                <marker date="1690095366777" expanded="true" signature="20154:20294" ph="select * fro... tutor" />
+                <marker date="1690095366777" expanded="true" signature="20450:20490" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="21078:21199" ph="insert into timetable... " />
+                <marker date="1690095366777" expanded="true" signature="21343:21367" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="21343:21397" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="21421:21441" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="21421:21467" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="21491:21512" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="21491:21539" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="22096:22318" ph="update timet... " />
+                <marker date="1690095366777" expanded="true" signature="22465:22489" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="22465:22518" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="22543:22563" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="22543:22588" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="22612:22633" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="22612:22659" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="22687:22731" ph="select * fro... timetable" />
+                <marker date="1690095366777" expanded="true" signature="22687:22739" ph="select * fro... timetable" />
+                <marker date="1690095366777" expanded="true" signature="23089:23113" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="23089:23142" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="23168:23188" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="23168:23213" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="23239:23492" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23541" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23590" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23640" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23689" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23739" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23789" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23883" ph="SELECT t.*, timetable" />
+                <marker date="1690095366777" expanded="true" signature="23239:23885" ph="select * fro... timetable" />
+                <marker date="1690095366777" expanded="true" signature="24018:24042" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="24018:24071" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="24095:24115" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="24095:24140" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="24315:24363" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="24557:24628" ph="select * fro... leave" />
+                <marker date="1690095366777" expanded="true" signature="24784:24824" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="25101:25187" ph="update `leav... " />
+                <marker date="1690095366777" expanded="true" signature="25909:25993" ph="insert into attendence... " />
+                <marker date="1690095366777" expanded="true" signature="26138:26159" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="26138:26185" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="26501:26575" ph="update atten... " />
+                <marker date="1690095366777" expanded="true" signature="26723:26744" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="26723:26770" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="27038:27059" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="27038:27085" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="27111:27285" ph="select * fro... attendence" />
+                <marker date="1690095366777" expanded="true" signature="27420:27441" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="27420:27467" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="27633:27684" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="28329:28374" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="28428:28595" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="29558:29814" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="30059:30276" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="30441:30642" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="30799:31000" ph="update teach... " />
+                <marker date="1690095366777" expanded="true" signature="31162:31209" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="31369:31495" ph="select * fro... teacher" />
+                <marker date="1690095366777" expanded="true" signature="31800:31869" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="31800:31918" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="31800:31920" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="32216:32294" ph="insert into mark... " />
+                <marker date="1690095366777" expanded="true" signature="32436:32457" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="32436:32483" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="32739:32799" ph="update mark " />
+                <marker date="1690095366777" expanded="true" signature="33052:33181" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="33327:33367" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="33711:33800" ph="insert into notification... " />
+                <marker date="1690095366777" expanded="true" signature="34258:34394" ph="update notif... " />
+                <marker date="1690095366777" expanded="true" signature="34555:34581" ph="select * fro... notification" />
+                <marker date="1690095366777" expanded="true" signature="34773:34824" ph="select * fro... notification" />
+                <marker date="1690095366777" expanded="true" signature="35019:35073" ph="delete from " />
+                <marker date="1690095366777" expanded="true" signature="35291:35340" ph="select * fro... notification" />
+                <marker date="1690095366777" expanded="true" signature="35507:35526" ph="select * fro... event" />
+                <marker date="1690095366777" expanded="true" signature="35700:35762" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="35700:35776" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="35700:35813" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="35700:35853" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="36023:36086" ph="update stude... " />
+                <marker date="1690095366777" expanded="true" signature="36260:36321" ph="update stude... " />
+                <marker date="1690095366777" expanded="true" signature="36504:36525" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="36504:36644" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="36504:36647" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="37004:37111" ph="insert into `leave`... " />
+                <marker date="1690095366777" expanded="true" signature="37004:37127" ph="insert into `leave`... " />
+                <marker date="1690095366777" expanded="true" signature="37285:37309" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="37285:37338" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="37516:37537" ph="select * fro... leave" />
+                <marker date="1690095366777" expanded="true" signature="37733:37820" ph="select * fro... leave_student" />
+                <marker date="1690095366777" expanded="true" signature="37733:37846" ph="select * fro... leave_student" />
+                <marker date="1690095366777" expanded="true" signature="38142:38244" ph="update `leav... " />
+                <marker date="1690095366777" expanded="true" signature="38612:38632" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="38612:38657" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="38683:38791" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="38683:38817" ph="select * fro... subject" />
+                <marker date="1690095366777" expanded="true" signature="38950:38970" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="38950:38995" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="39454:39521" ph="insert into study_material... " />
+                <marker date="1690095366777" expanded="true" signature="39784:39871" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="39784:39872" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="39784:39873" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="39784:39912" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="40099:40208" ph="select * fro... parent" />
+                <marker date="1690095366777" expanded="true" signature="41215:41290" ph="insert into login... " />
+                <marker date="1690095366777" expanded="true" signature="41320:41346" ph="insert into parent... " />
+                <marker date="1690095366777" expanded="true" signature="41320:41410" ph="insert into parent... " />
+                <marker date="1690095366777" expanded="true" signature="41396:41410" ph="insert into student... " />
+                <marker date="1690095366777" expanded="true" signature="42161:42237" ph="Select * fro... login" />
+                <marker date="1690095366777" expanded="true" signature="42488:42577" ph="insert into leave_student... " />
+                <marker date="1690095366777" expanded="true" signature="42715:42734" ph="select * fro... event" />
+                <marker date="1690095366777" expanded="true" signature="42925:42993" ph="select * fro... leave_student" />
+                <marker date="1690095366777" expanded="true" signature="43154:43235" ph="SELECT * FRO... notification" />
+                <marker date="1690095366777" expanded="true" signature="43411:43621" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="43821:43909" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="43821:43932" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="43821:43938" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="43821:43952" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="43821:43960" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="43821:43975" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="43821:43999" ph="select * fro... student" />
+                <marker date="1690095366777" expanded="true" signature="44210:44357" ph="select * fro... attendence" />
+                <marker date="1690095366777" expanded="true" signature="44584:44652" ph="select * fro... study" />
+                <marker date="1690095366777" expanded="true" signature="44676:44771" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="44676:44772" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="44676:44857" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="44676:44880" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="44676:44881" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="44676:44889" ph="select * fro... study_material" />
+                <marker date="1690095366777" expanded="true" signature="45096:45110" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="45096:45144" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="45096:45166" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="45096:45174" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="45344:45401" ph="SELECT SUM(s... mark" />
+                <marker date="1690095366777" expanded="true" signature="45917:45994" ph="select email... student" />
+                <marker date="1690095366777" expanded="true" signature="46041:46205" ph="update stude... " />
+                <marker date="1690095366777" expanded="true" signature="46619:46875" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="47098:47181" ph="select * fro... leave_student" />
+                <marker date="1690095366777" expanded="true" signature="47098:47204" ph="select * fro... leave_student" />
+                <marker date="1690095366777" expanded="true" signature="47098:47212" ph="select * fro... leave_student" />
+                <marker date="1690095366777" expanded="true" signature="47098:47214" ph="select * fro... leave_student" />
+                <marker date="1690095366777" expanded="true" signature="47440:47458" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="47440:47528" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="47440:47536" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="47440:47558" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="47440:47564" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="47805:47947" ph="select * fro... mark" />
+                <marker date="1690095366777" expanded="true" signature="48313:48337" ph="select * fro... department" />
+                <marker date="1690095366777" expanded="true" signature="48517:48561" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="48517:48565" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="48517:48566" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="48517:48572" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="48517:48573" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="48753:48767" ph="select * fro... course" />
+                <marker date="1690095366777" expanded="true" signature="48753:48772" ph="select * fro... event" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VIEW_EVENT.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/admin/VIEW_EVENT.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBConnection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DBConnection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="768">
+              <caret line="32" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6096">
+              <caret line="254" column="25" lean-forward="false" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adminindex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/adminindex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6360">
+              <caret line="265" column="7" lean-forward="false" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teacherindex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/teacherindex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="912">
+              <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>add</find>
+      <find>VIEW_SUBJECT</find>
+      <find>UPDATE_TEACHER</find>
+      <find>ADD_TEACHER</find>
+      <find>VIEW_TEACHER</find>
+      <find>VIEW_TUTOR</find>
+      <find>VIEW_TIME</find>
+      <find>VIEW_TIMETABLE</find>
+      <find>UPDATE_NOTI</find>
+      <find>UPDATE_eve</find>
+      <find>ADD_PROFILE</find>
+      <find>add_noti</find>
+      <find>ADD_teacher</find>
+      <find>VIEW_STUDENT_LIST</find>
+      <find>VIEW_UPLOAD</find>
+      <find>ADD</find>
+      <find>send_leave</find>
+      <find>ADD_PARENT</find>
+      <find>back</find>
+      <find>view_profile</find>
+      <find>curdate</find>
+      <find>bar</find>
+      <find>Curabitur condimentum velit non odio mattis tristique. Nam vitae orci aliquam.</find>
+      <find>pila</find>
+      <find>pilaT</find>
+      <find>background</find>
+      <find>body</find>
+      <find>about</find>
+      <find>abou</find>
+      <find>login</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/templates/admin/UPDATE_NOTIFICATION.html" />
+        <option value="$PROJECT_DIR$/templates/admin/UPDATE_SUBJECT.html" />
+        <option value="$PROJECT_DIR$/templates/admin/UPDATE_STUDENT.html" />
+        <option value="$PROJECT_DIR$/templates/admin/UPDATE_TUTOR.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/ADD_ATTENDANCE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/ADD_MARK.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/ADD_PARENT.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/SEND_STUDENT_LEAVE_REPLY.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/UPDATE_ATTENDANCE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/UPDATE_MARK.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_TEACHER.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_COURSE.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_DEPARTMENT.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_EVENT.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_NOTIFICATION.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_STUDENT.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_SUBJECT.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_MARK.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_PARENT_LIST.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_TUTOR.html" />
+        <option value="$PROJECT_DIR$/templates/admin/VIEW_TIMETABLE.html" />
+        <option value="$PROJECT_DIR$/templates/admin/UPDATE_TIMETABLE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/UPDATE_NOTIFICATION.html" />
+        <option value="$PROJECT_DIR$/templates/admin/UPDATE_EVENT.html" />
+        <option value="$PROJECT_DIR$/templates/admin/UPDATE_TEACHER.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_MATERIAL.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/UPLOAD_MATERIALS.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/ADD_PROFILE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_PROFILE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/UPDATE_PROFILE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_ATTENDENCE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_STUDENT_LIST.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/APPROVE _STUDENT_PROFILE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/STUDENT_PROFILE.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_STUDENT_LEAVE_REQUEST.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/ADD_NOTIFICATION.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_NOTIFICATION.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_ADMIN_NOTIFICATION.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_ADMIN_EVENT.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/SEND_LEAVE_REASON.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_LEAVE REQUEST_REPLY.html" />
+        <option value="$PROJECT_DIR$/templates/teacher/VIEW_SUBJECT.html" />
+        <option value="$PROJECT_DIR$/static/assets/js/adminvideobg.js" />
+        <option value="$PROJECT_DIR$/static/assets/js/videobg.js" />
+        <option value="$PROJECT_DIR$/static/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/static/assets/page_contact.html" />
+        <option value="$PROJECT_DIR$/templates/teacherindex.html" />
+        <option value="$PROJECT_DIR$/templates/adminindex.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/COLLEGE AUTOMATION.py" />
+        <option value="$PROJECT_DIR$/DBConnection.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1098" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="COLLEGE AUTOMATION" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="COLLEGE AUTOMATION">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\static\assets\upload" />
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\static\assets\css" />
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\static\assets\js" />
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\templates" />
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\static\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\static\assets" />
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\templates" />
+      <recent name="C:\Users\akash\PycharmProjects\COLLEGE AUTOMATION\static\assets\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.COLLEGE AUTOMATION">
+    <configuration default="false" name="VIEW_SUBJECT.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COLLEGE AUTOMATION/templates/teacher/VIEW_SUBJECT.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="VIEW_STUDENT_LIST.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COLLEGE AUTOMATION/templates/teacher/VIEW_STUDENT_LIST.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COLLEGE AUTOMATION/templates/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="page_contact.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COLLEGE AUTOMATION/static/assets/page_contact.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="VIEW_SUBJECT.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/COLLEGE AUTOMATION/templates/admin/VIEW_SUBJECT.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="COLLEGE AUTOMATION" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="COLLEGE AUTOMATION" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="COLLEGE AUTOMATION" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="COLLEGE AUTOMATION" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="COLLEGE AUTOMATION" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="COLLEGE AUTOMATION" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="COLLEGE AUTOMATION" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="COLLEGE AUTOMATION" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\akash\AppData\Local\Programs\Python\Python311\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="COLLEGE AUTOMATION" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/COLLEGE AUTOMATION.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.COLLEGE AUTOMATION" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.VIEW_SUBJECT.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.VIEW_STUDENT_LIST.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.page_contact.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.VIEW_SUBJECT.html (1)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.VIEW_SUBJECT.html (1)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.page_contact.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.VIEW_SUBJECT.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.VIEW_STUDENT_LIST.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="714d28dd-8eaf-4b4b-9302-859ab4b0b639" name="Default" comment="" />
+      <created>1668227476898</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668227476898</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2289221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2681388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18788502" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24555904" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298647" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18877551" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/COLLEGE AUTOMATION.py</url>
+          <line>905</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/COLLEGE AUTOMATION.py</url>
+          <line>108</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="39" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/admin/VIEW_STUDENT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="80" column="130" lean-forward="false" selection-start-line="80" selection-start-column="130" selection-end-line="80" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/VIEW_SUBJECT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="24" column="124" lean-forward="false" selection-start-line="24" selection-start-column="124" selection-end-line="24" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/VIEW_TEACHER.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_COURSE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_MARK.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="106" lean-forward="false" selection-start-line="28" selection-start-column="106" selection-end-line="28" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_PARENT_LIST.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="91" lean-forward="false" selection-start-line="26" selection-start-column="91" selection-end-line="26" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/VIEW_TIMETABLE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/VIEW_TUTOR.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="23" column="51" lean-forward="false" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/UPDATE_TIMETABLE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="71" column="80" lean-forward="true" selection-start-line="71" selection-start-column="80" selection-end-line="71" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/UPDATE_NOTIFICATION.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/UPDATE_EVENT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="30" column="112" lean-forward="false" selection-start-line="30" selection-start-column="112" selection-end-line="30" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/UPDATE_TEACHER.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="29" column="114" lean-forward="false" selection-start-line="29" selection-start-column="106" selection-end-line="29" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_MATERIAL.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/templates/teacher/ADD_ATTENDANCE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/ADD_COURSE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_PROFILE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="51" column="34" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/ADD_PROFILE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="53" column="29" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/UPDATE_PROFILE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_ATTENDENCE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_STUDENT_LIST.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="2556" column="6" lean-forward="false" selection-start-line="2556" selection-start-column="2" selection-end-line="2556" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/APPROVE _STUDENT_PROFILE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/STUDENT_PROFILE.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_STUDENT_LEAVE_REQUEST.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/ADD_NOTIFICATION.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_NOTIFICATION.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="57" lean-forward="false" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_ADMIN_NOTIFICATION.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="57" lean-forward="false" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_ADMIN_EVENT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/SEND_LEAVE_REASON.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_LEAVE REQUEST_REPLY.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/VIEW_SUBJECT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher/UPLOAD_MATERIALS.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4137">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/adminvideobg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="70" column="8" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="4" column="21620" lean-forward="false" selection-start-line="4" selection-start-column="21620" selection-end-line="4" selection-end-column="21620" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/upload/course_01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/font-awesome.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="3" column="10795" lean-forward="false" selection-start-line="3" selection-start-column="10795" selection-end-line="3" selection-end-column="10795" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/js/videobg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="56" column="42" lean-forward="true" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/images/apple-touch-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/images/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/images/logo-dark.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/page_contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="75" column="120" lean-forward="false" selection-start-line="75" selection-start-column="120" selection-end-line="75" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="2213" column="5" lean-forward="false" selection-start-line="2213" selection-start-column="5" selection-end-line="2213" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacherindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="19" lean-forward="false" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/adminindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6360">
+          <caret line="265" column="7" lean-forward="false" selection-start-line="265" selection-start-column="7" selection-end-line="265" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6096">
+          <caret line="254" column="25" lean-forward="false" selection-start-line="254" selection-start-column="25" selection-end-line="254" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/COLLEGE AUTOMATION.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1177" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+            <marker date="1690095366777" expanded="true" signature="559:627" ph="select * fro... login" />
+            <marker date="1690095366777" expanded="true" signature="1502:1554" ph="insert into course... " />
+            <marker date="1690095366777" expanded="true" signature="1697:1721" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="1697:1750" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="1904:1987" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="1904:1988" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="1904:2013" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="2315:2407" ph="update cours... " />
+            <marker date="1690095366777" expanded="true" signature="2554:2578" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="2554:2607" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="2635:2681" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="2635:2706" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="2876:2918" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="3205:3248" ph="insert into department... " />
+            <marker date="1690095366777" expanded="true" signature="3609:3686" ph="update depar... " />
+            <marker date="1690095366777" expanded="true" signature="3838:3892" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="4060:4084" ph="SELECT * FRO... department" />
+            <marker date="1690095366777" expanded="true" signature="4060:4113" ph="SELECT * FRO... department" />
+            <marker date="1690095366777" expanded="true" signature="4285:4335" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="4888:4961" ph="insert into event... " />
+            <marker date="1690095366777" expanded="true" signature="5585:5752" ph="select * fro... event" />
+            <marker date="1690095366777" expanded="true" signature="6000:6151" ph="update event... " />
+            <marker date="1690095366777" expanded="true" signature="6317:6464" ph="update event... " />
+            <marker date="1690095366777" expanded="true" signature="6617:6763" ph="update event... " />
+            <marker date="1690095366777" expanded="true" signature="6918:6962" ph="select * fro... event" />
+            <marker date="1690095366777" expanded="true" signature="7115:7134" ph="select * fro... event" />
+            <marker date="1690095366777" expanded="true" signature="7115:7164" ph="select * fro... event" />
+            <marker date="1690095366777" expanded="true" signature="7320:7360" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="7737:7824" ph="insert into notification... " />
+            <marker date="1690095366777" expanded="true" signature="8255:8391" ph="update notif... " />
+            <marker date="1690095366777" expanded="true" signature="8544:8570" ph="select * fro... notification" />
+            <marker date="1690095366777" expanded="true" signature="8744:8770" ph="select * fro... notification" />
+            <marker date="1690095366777" expanded="true" signature="8744:8807" ph="select * fro... notification" />
+            <marker date="1690095366777" expanded="true" signature="8984:9038" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="10177:10253" ph="insert into login... " />
+            <marker date="1690095366777" expanded="true" signature="10282:10448" ph="insert into student... " />
+            <marker date="1690095366777" expanded="true" signature="10446:10448" ph="insert into teacher... " />
+            <marker date="1690095366777" expanded="true" signature="10840:10864" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="10840:10893" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="10917:10937" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="10917:10962" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="11431:11610" ph="update stude... " />
+            <marker date="1690095366777" expanded="true" signature="11755:11779" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="11755:11808" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="11832:11852" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="11832:11877" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="11904:11951" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="12250:12274" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="12250:12303" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="12331:12351" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="12331:12377" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="12404:12648" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="12404:12674" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="12817:12841" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="12817:12870" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="12896:12916" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="12896:12941" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="12969:13150" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="13335:13379" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="13742:13806" ph="insert into subject... " />
+            <marker date="1690095366777" expanded="true" signature="13948:13972" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="13948:14001" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="14025:14045" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="14025:14070" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="14413:14527" ph="update subje... " />
+            <marker date="1690095366777" expanded="true" signature="14673:14697" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="14673:14726" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="14750:14770" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="14750:14795" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="14824:14871" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="15046:15117" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="15046:15143" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="15305:15349" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="16355:16431" ph="insert into login... " />
+            <marker date="1690095366777" expanded="true" signature="16463:16558" ph="insert into teacher... " />
+            <marker date="1690095366777" expanded="true" signature="16955:16979" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="16955:17008" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="17350:17441" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="17350:17447" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="17350:17460" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="17350:17467" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="17613:17637" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="17613:17666" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="17693:17714" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="17693:17740" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="17693:17742" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="18002:18026" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="18002:18055" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="18081:18213" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="18081:18239" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="18368:18392" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="18368:18421" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="18584:18628" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="18996:19067" ph="insert into tutor... " />
+            <marker date="1690095366777" expanded="true" signature="19207:19228" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="19207:19254" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="19279:19299" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="19279:19324" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="19617:19675" ph="update tutor... " />
+            <marker date="1690095366777" expanded="true" signature="19821:19842" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="19821:19868" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="19892:19912" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="19892:19938" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="19965:19984" ph="select * fro... tutor" />
+            <marker date="1690095366777" expanded="true" signature="20154:20267" ph="select * fro... tutor" />
+            <marker date="1690095366777" expanded="true" signature="20154:20294" ph="select * fro... tutor" />
+            <marker date="1690095366777" expanded="true" signature="20450:20490" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="21078:21199" ph="insert into timetable... " />
+            <marker date="1690095366777" expanded="true" signature="21343:21367" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="21343:21397" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="21421:21441" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="21421:21467" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="21491:21512" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="21491:21539" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="22096:22318" ph="update timet... " />
+            <marker date="1690095366777" expanded="true" signature="22465:22489" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="22465:22518" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="22543:22563" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="22543:22588" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="22612:22633" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="22612:22659" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="22687:22731" ph="select * fro... timetable" />
+            <marker date="1690095366777" expanded="true" signature="22687:22739" ph="select * fro... timetable" />
+            <marker date="1690095366777" expanded="true" signature="23089:23113" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="23089:23142" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="23168:23188" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="23168:23213" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="23239:23492" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23541" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23590" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23640" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23689" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23739" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23789" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23883" ph="SELECT t.*, timetable" />
+            <marker date="1690095366777" expanded="true" signature="23239:23885" ph="select * fro... timetable" />
+            <marker date="1690095366777" expanded="true" signature="24018:24042" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="24018:24071" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="24095:24115" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="24095:24140" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="24315:24363" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="24557:24628" ph="select * fro... leave" />
+            <marker date="1690095366777" expanded="true" signature="24784:24824" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="25101:25187" ph="update `leav... " />
+            <marker date="1690095366777" expanded="true" signature="25909:25993" ph="insert into attendence... " />
+            <marker date="1690095366777" expanded="true" signature="26138:26159" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="26138:26185" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="26501:26575" ph="update atten... " />
+            <marker date="1690095366777" expanded="true" signature="26723:26744" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="26723:26770" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="27038:27059" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="27038:27085" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="27111:27285" ph="select * fro... attendence" />
+            <marker date="1690095366777" expanded="true" signature="27420:27441" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="27420:27467" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="27633:27684" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="28329:28374" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="28428:28595" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="29558:29814" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="30059:30276" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="30441:30642" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="30799:31000" ph="update teach... " />
+            <marker date="1690095366777" expanded="true" signature="31162:31209" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="31369:31495" ph="select * fro... teacher" />
+            <marker date="1690095366777" expanded="true" signature="31800:31869" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="31800:31918" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="31800:31920" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="32216:32294" ph="insert into mark... " />
+            <marker date="1690095366777" expanded="true" signature="32436:32457" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="32436:32483" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="32739:32799" ph="update mark " />
+            <marker date="1690095366777" expanded="true" signature="33052:33181" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="33327:33367" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="33711:33800" ph="insert into notification... " />
+            <marker date="1690095366777" expanded="true" signature="34258:34394" ph="update notif... " />
+            <marker date="1690095366777" expanded="true" signature="34555:34581" ph="select * fro... notification" />
+            <marker date="1690095366777" expanded="true" signature="34773:34824" ph="select * fro... notification" />
+            <marker date="1690095366777" expanded="true" signature="35019:35073" ph="delete from " />
+            <marker date="1690095366777" expanded="true" signature="35291:35340" ph="select * fro... notification" />
+            <marker date="1690095366777" expanded="true" signature="35507:35526" ph="select * fro... event" />
+            <marker date="1690095366777" expanded="true" signature="35700:35762" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="35700:35776" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="35700:35813" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="35700:35853" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="36023:36086" ph="update stude... " />
+            <marker date="1690095366777" expanded="true" signature="36260:36321" ph="update stude... " />
+            <marker date="1690095366777" expanded="true" signature="36504:36525" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="36504:36644" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="36504:36647" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="37004:37111" ph="insert into `leave`... " />
+            <marker date="1690095366777" expanded="true" signature="37004:37127" ph="insert into `leave`... " />
+            <marker date="1690095366777" expanded="true" signature="37285:37309" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="37285:37338" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="37516:37537" ph="select * fro... leave" />
+            <marker date="1690095366777" expanded="true" signature="37733:37820" ph="select * fro... leave_student" />
+            <marker date="1690095366777" expanded="true" signature="37733:37846" ph="select * fro... leave_student" />
+            <marker date="1690095366777" expanded="true" signature="38142:38244" ph="update `leav... " />
+            <marker date="1690095366777" expanded="true" signature="38612:38632" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="38612:38657" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="38683:38791" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="38683:38817" ph="select * fro... subject" />
+            <marker date="1690095366777" expanded="true" signature="38950:38970" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="38950:38995" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="39454:39521" ph="insert into study_material... " />
+            <marker date="1690095366777" expanded="true" signature="39784:39871" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="39784:39872" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="39784:39873" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="39784:39912" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="40099:40208" ph="select * fro... parent" />
+            <marker date="1690095366777" expanded="true" signature="41215:41290" ph="insert into login... " />
+            <marker date="1690095366777" expanded="true" signature="41320:41346" ph="insert into parent... " />
+            <marker date="1690095366777" expanded="true" signature="41320:41410" ph="insert into parent... " />
+            <marker date="1690095366777" expanded="true" signature="41396:41410" ph="insert into student... " />
+            <marker date="1690095366777" expanded="true" signature="42161:42237" ph="Select * fro... login" />
+            <marker date="1690095366777" expanded="true" signature="42488:42577" ph="insert into leave_student... " />
+            <marker date="1690095366777" expanded="true" signature="42715:42734" ph="select * fro... event" />
+            <marker date="1690095366777" expanded="true" signature="42925:42993" ph="select * fro... leave_student" />
+            <marker date="1690095366777" expanded="true" signature="43154:43235" ph="SELECT * FRO... notification" />
+            <marker date="1690095366777" expanded="true" signature="43411:43621" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="43821:43909" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="43821:43932" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="43821:43938" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="43821:43952" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="43821:43960" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="43821:43975" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="43821:43999" ph="select * fro... student" />
+            <marker date="1690095366777" expanded="true" signature="44210:44357" ph="select * fro... attendence" />
+            <marker date="1690095366777" expanded="true" signature="44584:44652" ph="select * fro... study" />
+            <marker date="1690095366777" expanded="true" signature="44676:44771" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="44676:44772" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="44676:44857" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="44676:44880" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="44676:44881" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="44676:44889" ph="select * fro... study_material" />
+            <marker date="1690095366777" expanded="true" signature="45096:45110" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="45096:45144" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="45096:45166" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="45096:45174" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="45344:45401" ph="SELECT SUM(s... mark" />
+            <marker date="1690095366777" expanded="true" signature="45917:45994" ph="select email... student" />
+            <marker date="1690095366777" expanded="true" signature="46041:46205" ph="update stude... " />
+            <marker date="1690095366777" expanded="true" signature="46619:46875" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="47098:47181" ph="select * fro... leave_student" />
+            <marker date="1690095366777" expanded="true" signature="47098:47204" ph="select * fro... leave_student" />
+            <marker date="1690095366777" expanded="true" signature="47098:47212" ph="select * fro... leave_student" />
+            <marker date="1690095366777" expanded="true" signature="47098:47214" ph="select * fro... leave_student" />
+            <marker date="1690095366777" expanded="true" signature="47440:47458" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="47440:47528" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="47440:47536" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="47440:47558" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="47440:47564" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="47805:47947" ph="select * fro... mark" />
+            <marker date="1690095366777" expanded="true" signature="48313:48337" ph="select * fro... department" />
+            <marker date="1690095366777" expanded="true" signature="48517:48561" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="48517:48565" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="48517:48566" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="48517:48572" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="48517:48573" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="48753:48767" ph="select * fro... course" />
+            <marker date="1690095366777" expanded="true" signature="48753:48772" ph="select * fro... event" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/VIEW_EVENT.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,30 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" width="441" height="211" border="1" class="table table-responsive">
+    <tr>
+      <td style="color: black">NOTIFICATION</td>
+      <td><label for="textfield"></label>
+      <input style="color: black" type="text" name="textfield" id="textfield" value="{{ data.NOTIFICATION_NAME }}" required/></td>
+    </tr>
+    <tr>
+      <td style="color: black">NOTIFICATION DETAILS</td>
+      <td><label for="textarea"></label>
+      <textarea style="color: black" name="textarea" id="textarea" cols="45" rows="5">{{ data.NOTIFICATION_DEATILES }} required</textarea></td>
+    </tr>
+    <tr>
+      <td style="color: black" colspan="2" align="center"><input type="submit" name="button" id="button" value="UPDATE" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

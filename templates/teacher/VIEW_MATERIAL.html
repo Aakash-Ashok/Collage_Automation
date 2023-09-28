@@ -1,0 +1,32 @@
+{% extends 'teacherindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="537" height="209" border="1">
+    <tr>
+      <td>#</td>
+      <td><div align="center">DATE</div></td>
+      <td><div align="center">MATERIAL</div></td>
+      <td>&nbsp;</td>
+    </tr>
+  {% for i in data %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ i.DATE }}</td>
+        <td><a href="{{ i.MATERIAL }}" >VIEW</a></td>
+      <td><div align="center"><a href=""onclick="return confirm('ARE YOU SURE TO DELETE')">DELETE</a></div></td>
+    </tr>
+  {% endfor %}
+  </table>
+
+</form>
+</body>
+</html>
+{% endblock %}

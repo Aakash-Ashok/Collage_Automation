@@ -1,0 +1,66 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="588" height="251" border="1" class="table table-responsive">
+    <tr>
+      <td style="color: black">DEPARTMENT</td>
+      <td><label style="color: black" for="select"></label>
+        <select style="color: black" name="select" id="select" required>
+             {% for i in data %}
+                <option value="{{ i.DEPARTMENT_ID }}">{{ i.DEPARTMENT_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">COURSE</td>
+      <td><label style="color: black" for="select2"></label>
+        <select style="color: black" name="select2" id="select2" required>
+             {% for i in data2 %}
+                <option value="{{ i.COURSE_ID }}">{{ i.COURSE_NAME }}</option>
+            {% endfor %}
+      </select></td>
+    </tr>
+    <tr>
+      <td style="color: black">SEMESTER</td>
+      <td><label for="textfield"></label>
+        <label style="color: black" for="select3"></label>
+        <select style="color: black" name="select3" id="select3" required>
+          <option>SEMESTER 1</option>
+          <option>SEMESTER 2</option>
+          <option>SEMESTER 3</option>
+          <option>SEMESTER 4</option>
+          <option>SEMESTER 5</option>
+          <option>SEMESTER 6</option>
+      </select></td>
+    </tr>
+     <tr>
+      <td style="color: black">REGISTER NO</td>
+      <td><label style="color: black" for="textfield4"></label>
+      <input style="color: black" type="text" name="textfield" id="textfield4" required/></td>
+    </tr>
+    <tr>
+      <td style="color: black" >NAME</td>
+      <td><label style="color: black" for="textfield2"></label>
+      <input style="color: black" type="text" name="textfield2" id="textfield2" required/></td>
+    </tr>
+    <tr>
+      <td style="color: black">EMAIL</td>
+      <td><label for="textfield3"></label>
+      <input style="color: black" type="text" name="textfield3" id="textfield3" required/></td>
+    </tr>
+    <tr>
+      <td style="color: black" colspan="2" align="center"><input type="submit" name="button" id="button" value="ADD" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}

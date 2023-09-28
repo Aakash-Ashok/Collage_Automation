@@ -1,0 +1,32 @@
+{% extends 'adminindex.html' %}
+{% block body %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table align="center" width="361" height="168" border="1" class="table table-responsive">
+    <tr>
+      <td style="color: black">#</td>
+{#      <td>SUBJECT_ID</td>#}
+      <td style="color: black">SUBJECT_NAME</td>
+        <td style="color: black"> COURSE NAME</td>
+    </tr>
+      {% for i in data %}
+    <tr>
+       <td style="color: black">{{ loop.index }}</td>
+      <td style="color: black">{{ i.SUBJECT_NAME }}</td>
+        <td style="color: black">{{ i.COURSE_NAME }}</td>
+         <td style="color: blue" ><a href="UPDATE_SUBJECT/{{ i.SUBJECT_ID }}">UPDATE</a></td>
+      <td style="color: blue" ><a href="DELETE_SUBJECT/{{ i.SUBJECT_ID }}"onclick="return confirm('ARE YOU SURE TO DELETE')">DELETE</a></td>
+    </tr>
+      {% endfor %}
+  </table>
+</form>
+</body>
+</html>
+{% endblock %}
